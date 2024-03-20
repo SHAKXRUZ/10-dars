@@ -1,0 +1,828 @@
+@font-face {
+    font-family: "/Roboto400.ttf";
+    src: url("./assets/fonts/Roboto400.ttf");
+}
+
+
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1520px;
+    height: 6074px;
+    background: #FFFFFF;
+    padding: 20px 20px;
+    margin: 0 auto;
+}
+
+.header_one {
+    max-width: 1920px;
+    height: 104px;
+    background: #000000E5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+
+.bi-list {
+    width: 36px;
+    height: 32px;
+    color: #BDBDBD;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.header_logo_one {
+    width: 184.36px;
+    height: 76.6px;
+
+}
+
+.bi-telephone-fill {
+    width: 29px;
+    height: 29px;
+    color: #BDBDBD;
+    font-size: 30px;
+}
+
+.fred {
+    padding-left: 110px;
+    padding-top: 10px;
+    display: flex;
+}
+
+.button_card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.button_one {
+    width: 150px;
+    height: 45px;
+    background: #000000;
+    color: white;
+    transition: .5s;
+    border-radius: 5px;
+}
+
+.button_one:hover {
+    background-color: white;
+    color: #000000;
+    transition: .5s;
+    border-radius: 5px;
+}
+
+.button_two:hover {
+    background-color: black;
+    color: white;
+    transition: .5s;
+    border: transparent;
+    border-radius: 5px;
+}
+
+.button_two {
+    width: 150px;
+    height: 45px;
+    background: #F2F2F2;
+    color: black;
+    transition: .5s;
+    cursor: pointer;
+    border: 1ps solid transparent;
+    border-radius: 5px;
+}
+
+.main_img_one {
+    max-width: 18895px;
+    width: 1300px;
+    height: 800px;
+    padding-top: 50px;
+
+}
+
+.black_text {
+    width: 185px;
+    height: 21px;
+    font-family: "/Roboto400.ttf";
+    margin-left: 40px;
+    padding-top: 50px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.grey_text {
+    width: 195px;
+    height: 21px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 40px;
+    padding-top: 10px;
+}
+
+.soonetr {
+    width: 48px;
+    height: 21px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.uzun_text {
+    width: 448px;
+    height: 126px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 50px;
+}
+
+.buliom_all {
+    display: flex;
+    gap: 500px;
+}
+
+.dref_img1 {
+    width: 640px;
+    height: 700px;
+    padding-top: 80px;
+
+}
+
+
+.assul_img {
+    width: 1297px;
+    height: 600px;
+    padding-top: 20px;
+
+}
+
+.oldasl_text {
+    width: 417px;
+    height: 84px;
+    font-family: "/Roboto400.ttf";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    padding-left: 70px;
+    padding-top: 50px;
+}
+
+.help_text {
+    width: 700px;
+    height: 175px;
+    font-family: "/Roboto400.ttf";
+    /* font-size: 24px; */
+    font-weight: 300;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.ofik_text {
+    font-family: Roboto;
+    /* font-size: 24px; */
+    font-weight: 300;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 600px;
+    height: 175px;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.well_text {
+    width: 412px;
+    height: 700px;
+    padding-top: 20px;
+
+}
+
+.cold_welovin {
+    width: 1285px;
+    height: 600px;
+    padding-top: 30px;
+
+}
+
+.section_text {
+    width: 220px;
+    height: 126px;
+    font-family: "/Roboto400.ttf";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 70px;
+    padding-top: 50px;
+}
+
+.gang {
+    margin-left: 150px;
+}
+
+.button_card_one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.border_card {
+    width: 1280px;
+    height: 200px;
+    border: 1px solid F2F2F2;
+    margin-top: 80px;
+    background-color: #F2F2F2;
+
+}
+
+
+.section_bott {
+    width: 550px;
+    height: 106px;
+    font-family: "/Roboto400.ttf";
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 35px;
+    margin-left: 70px;
+    /* display: flex; */
+}
+
+.section_btn {
+    width: 430px;
+    height: 70px;
+    position: absolute;
+    background-color: #000000;
+    color: white;
+    margin-left: 700px;
+    margin-top: -55px;
+    cursor: pointer;
+}
+
+.section_btn:hover {
+    background-color: white;
+    color: black;
+    transition: .5s;
+}
+
+.footer_card {
+    height: 800px;
+    position: absolute;
+    margin-top: 100px;
+
+}
+
+.footer_img {
+    width: 940px;
+    height: 800px;
+    margin-top: -100px;
+}
+
+.footer_img_one {
+    width: 150px;
+    height: 150px;
+    margin-left: 560px;
+    margin-top: 50px;
+}
+
+.footer {
+    width: 1300px;
+    height: 800px;
+    /* border: 3px solid; */
+    margin-top: 100px;
+}
+
+.foot_img_logo {
+    margin-top: -200px;
+    margin-left: -900px;
+}
+
+.dfghjk {
+    position: absolute;
+    margin-left: 00px;
+    margin-top: 240px;
+    color: white;
+}
+
+.foot_text1 {
+    margin-left: 80px;
+}
+
+.foot_text2 {
+    margin-left: 80px;
+}
+
+.foot_text3 {
+    margin-left: 80px;
+}
+
+
+.food_tel {
+    text-decoration: none;
+    color: white;
+}
+
+
+.icone_bord {
+    width: 400px;
+    height: 50px;
+    /* border: 1px solid red; */
+    margin-top: -120px;
+    margin-left: 80px;
+
+}
+
+.drell_img {
+    margin-left: 1110px;
+    margin-top: -150px;
+}
+
+.bi-telegram {
+    font-size: 30px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+.bi-instagram {
+    margin-left: 30px;
+    border-radius: 5px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+}
+
+.bi-facebook {
+    border-radius: 5px;
+    margin-left: 40px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+}
+
+.bi-youtube {
+    margin-left: 40px;
+    border-radius: 5px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+}
+
+.bi-tiktok {
+    margin-left: 40px;
+    border-radius: 5px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+}
+
+.bi-whatsapp {
+    margin-left: 40px;
+    border-radius: 5px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+}
+
+.footer_button {
+    margin-top: -450px;
+    text-align: center;
+}
+
+.font_larfont_lar{
+   font-weight: 900;
+}
+
+@media only screen and (max-width:11780px) {
+
+    .main_img_one {
+        max-width: 1995px;
+        height: 700px;
+        padding-top: 50px;
+
+    }
+
+    .buliom_all {
+        display: flex;
+        gap: 380px;
+    }
+
+
+
+}
+
+
+@media only screen and (max-width:1400px) {
+
+    .main_img_one {
+        max-width: 1100px;
+        /* width: 1295px; */
+        height: 700px;
+        padding-top: 50px;
+
+    }
+
+    .buliom_all {
+        display: flex;
+        gap: 400px;
+    }
+
+
+
+}
+
+@media only screen and (max-width:1050px) {
+
+    .main_img_one {
+        max-width: 1100px;
+        /* width: 1295px; */
+        height: 700px;
+        padding-top: 50px;
+
+    }
+
+    .buliom_all {
+        display: flex;
+        gap: 200px;
+    }
+
+
+
+}
+
+
+@media only screen and (max-width:1190px) {
+
+    .main_img_one {
+        max-width: 980px;
+        /* width: 1295px; */
+        height: 700px;
+        padding-top: 50px;
+
+    }
+
+    .buliom_all {
+        display: flex;
+        gap: 380px;
+    }
+
+    .grey_text {
+        width: 195px;
+        height: 21px;
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-left: 40px;
+        padding-top: 10px;
+    }
+
+}
+
+@media only screen and (max-width:950px) {
+
+    .main_img_one {
+        max-width: 750px;
+        /* width: 1295px; */
+        height: 700px;
+        padding-top: 50px;
+
+    }
+
+    .buliom_all {
+        display: flex;
+        gap: 380px;
+    }
+
+}
+
+@media only screen and (max-width:985px) {
+
+    .main_img_one {
+        max-width: 680px;
+        /* width: 1295px; */
+        height: 700px;
+        padding-top: 50px;
+
+    }
+
+    .buliom_all {
+        display: flex;
+        gap: 380px;
+    }
+
+}
+
+@media only screen and (max-width:750px) {
+
+    .main_img_one {
+        max-width: 500px;
+        /* width: 1295px; */
+        height: 600px;
+        padding-top: 50px;
+
+    }
+
+    .buliom_all {
+        display: flex;
+        gap: 300px;
+    }
+}
+
+@media only screen and (max-width:520px) {
+
+    .main_img_one {
+        max-width: 450px;
+        /* width: 1295px; */
+        height: 500px;
+        padding-top: 50px;
+
+    }
+
+}
+
+@media only screen and (max-width:450px) {
+
+    .main_img_one {
+        max-width: 380px;
+        /* width: 1295px; */
+        height: 500px;
+        padding-top: 50px;
+
+    }
+
+    .buliom_all {
+        display: flex;
+        gap: 380px;
+    }
+}
+
+@media only screen and (max-width:380px) {
+
+    .main_img_one {
+        max-width: 340px;
+        /* width: 1295px; */
+        height: 400px;
+        padding-top: 50px;
+
+    }
+
+    .buliom_all {}
+
+}
+
+/* 1350 BULGANDA */
+
+
+@media only screen and (max-width:1350px) {
+    .header_one {
+        padding: 0px 20px;
+    }
+
+    .fred {
+        display: none;
+    }
+
+    .button_card {
+        padding-top: 50px;
+    }
+
+    .button_one {
+        width: 140px;
+        height: 40px;
+        border-radius: 5px;
+    }
+
+    .button_two {
+        width: 140px;
+        height: 40px;
+        border-radius: 5px;
+    }
+
+
+
+}
+
+
+
+
+/* 1885 BULGANDA */
+
+@media only screen and (max-width:1885px) {}
+
+
+
+
+/* 611 BULGANDA */
+
+
+@media only screen and (max-width:611px) {
+    .bi-list {
+        font-size: 30px;
+    }
+
+    .header_logo_one {
+        width: 120px;
+        height: 50px;
+
+    }
+
+    .bi-telephone-fill {
+        font-size: 20px;
+    }
+
+    .fred {
+        display: none;
+    }
+
+    .button_card {
+        padding-top: 50px;
+    }
+
+    .button_one {
+        width: 140px;
+        height: 40px;
+        border-radius: 5px;
+
+    }
+
+    .button_two {
+        width: 140px;
+        height: 40px;
+        border-radius: 5px;
+
+    }
+
+
+}
+
+
+
+
+/* 975 BULGANDA */
+
+
+@media only screen and (max-width:975px) {}
+
+
+
+/* 411 BULGANDA */
+
+
+@media only screen and (max-width:411px) {
+    .bi-list {
+        font-size: 30px;
+    }
+
+    .header_logo_one {
+        width: 120px;
+        height: 50px;
+
+    }
+
+    .bi-telephone-fill {
+        font-size: 20px;
+        padding: 10px 15px 10px 10px;
+    }
+
+    .fred {
+        display: none;
+    }
+
+    .button_card {
+        padding-top: 50px;
+    }
+
+    .button_one {
+        width: 130px;
+        height: 35px;
+        border-radius: 5px;
+
+    }
+
+    .button_two {
+        width: 130px;
+        height: 35px;
+        border-radius: 5px;
+
+    }
+
+
+}
+
+
+
+/* 711 BULGANDA */
+
+@media only screen and (max-width:711px) {
+    .bi-list {
+        font-size: 30px;
+    }
+
+    .header_logo_one {
+        width: 120px;
+        height: 50px;
+
+    }
+
+    .bi-telephone-fill {
+        font-size: 20px;
+        padding: 10px 15px 10px 10px;
+    }
+
+    .fred {
+        display: none;
+    }
+
+    .button_card {
+        padding-top: 50px;
+    }
+
+    .button_one {
+        width: 130px;
+        height: 35px;
+        border-radius: 5px;
+
+    }
+
+    .button_two {
+        width: 130px;
+        height: 35px;
+        border-radius: 5px;
+
+    }
+
+
+}
+
+
+
+
+
+/* 350 BULGANDA */
+
+
+@media only screen and (max-width:350px) {
+    .header_one {
+        padding: 0px;
+    }
+
+    .fred {
+        display: none;
+
+    }
+
+    .button_card {
+        padding-top: 50px;
+    }
+
+    .button_one {
+        width: 120px;
+        height: 40px;
+        border-radius: 5px;
+
+    }
+
+    .button_two {
+        width: 120px;
+        height: 40px;
+        border-radius: 5px;
+
+    }
+
+}
